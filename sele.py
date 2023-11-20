@@ -10,8 +10,8 @@ driver.get("https://pfm.smartcitylk.org/wp-admin/profile.php")
 username_field = driver.find_element(By.NAME, "log")
 password_field = driver.find_element(By.NAME, "pwd")
 
-username_field.send_keys("thilacramesh@gmail.com")
-password_field.send_keys("TAFpfm#2133")
+username_field.send_keys("user id")
+password_field.send_keys("password")
 
 login_button = driver.find_element(By.ID, "wp-submit")
 login_button.click()
